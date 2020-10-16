@@ -13,11 +13,11 @@ services:
             - 7557
             - 8002
         environment:
-            CHAINNAME: MyChain
+            CHAINNAME: SMRT1Chain
             NETWORK_PORT: 7557
             RPC_PORT: 8002
-            RPC_USER: multichainrpc
-            RPC_PASSWORD: this-is-insecure-change-it
+            RPC_USER: smrt1rpc
+            RPC_PASSWORD: smrt1password
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
             PARAM_TARGET_BLOCK_SIZE: target-block-time|30
             PARAM_ANYONE_CAN_CONNECT: anyone-can-connect|true
@@ -30,11 +30,11 @@ services:
             - 7557
             - 8002
         environment:
-            CHAINNAME: MyChain
+            CHAINNAME: SMRT1Chain
             NETWORK_PORT: 7557
             RPC_PORT: 8002
-            RPC_USER: multichainrpc
-            RPC_PASSWORD: this-is-insecure-change-it
+            RPC_USER: smrt1rpc
+            RPC_PASSWORD: smrt1password
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
             MASTER_NODE: masternode
         links:
@@ -50,11 +50,11 @@ services:
             - 7557
             - 8002
         environment:
-            CHAINNAME: MyChain
+            CHAINNAME: SMRT1Chain
             NETWORK_PORT: 7557
             RPC_PORT: 8002
-            RPC_USER: multichainrpc
-            RPC_PASSWORD: this-is-insecure-change-it
+            RPC_USER: smrt1rpc
+            RPC_PASSWORD: smrt1password
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
             MASTER_NODE: masternode
         links:
