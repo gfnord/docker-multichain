@@ -9,6 +9,7 @@ RUN apt-get update \
         && curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py \
         && python2 get-pip.py \
         && pip install pycrypto \
+        && pip install py-ubjson \
         && apt-get clean \
         && rm -rf /var/lib/apt/lists/*
 

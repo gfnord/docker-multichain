@@ -49,6 +49,8 @@ services:
             - 2750
             - 7557
             - 8002
+        ports:
+            - "2750:2750"
         environment:
             CHAINNAME: SMRT1Chain
             NETWORK_PORT: 7557
