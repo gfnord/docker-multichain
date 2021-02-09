@@ -6,7 +6,7 @@ RUN apt-get update \
         && add-apt-repository universe \
         && apt-get update \
         && apt-get install -q -y build-essential python2 python2-dev sqlite3 libsqlite3-dev \
-        && curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py \
+        && curl https://bootstrap.pypa.io/2.7/get-pip.py --output get-pip.py \
         && python2 get-pip.py \
         && pip install pycrypto \
         && pip install py-ubjson \
